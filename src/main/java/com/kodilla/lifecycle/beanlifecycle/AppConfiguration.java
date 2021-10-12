@@ -16,4 +16,9 @@ class AppConfiguration {
         return new BeanMonitor();
     }
 
+    @Bean
+    public BeanCreationMonitor beanCreationMonitor() {
+        return new BeanCreationMonitor();
+    }
+
 }
